@@ -1,0 +1,120 @@
+.footer-container {
+    background-color: #004AAD;
+    color: #fff;
+    padding: 50px 0px;
+    // text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    .footer {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+
+            .social-mail {
+                color: #fff;
+                margin-left: 10px;
+            }
+        }
+
+
+        .footer-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+
+            .social-links {
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                height: 100%;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+
+            .footer-left-text-social-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+        }
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+
+        .footer-right-input-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+
+            .footer-right-input {
+                width: 76%;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                padding: 0 0 0 10px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+
+            .footer-right-input-button {
+                width: 80%;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
