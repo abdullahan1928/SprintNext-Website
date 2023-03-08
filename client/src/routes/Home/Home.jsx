@@ -5,7 +5,7 @@ import HeroImage from '../../assets/1.png'
 const Home = () => {
     return (
         <div className='home-container'>
-            <div className='home-heder-section'>
+            <div className='home-header-section'>
                 <div className='home-desc'>
                     <h1>
                         Hire World's Best Talent
